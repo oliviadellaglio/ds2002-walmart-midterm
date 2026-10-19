@@ -1,0 +1,47 @@
+team = {
+    'name': 'TODO',
+    'members': [                                # one line per person, 2 to 4
+        {'name': 'TODO', 'github': 'TODO'},
+        {'name': 'TODO', 'github': 'TODO'},
+    ],
+    'goals': {
+        'good_result': 'TODO',                  # what a good result looks like for us
+        'what_each_person_wants': 'TODO',       # one line per person is fine
+        'time_limits': 'TODO',                  # jobs, other classes, travel
+        'what_to_avoid': 'TODO',                # what would make this a bad experience
+    },
+    'roles': {                                  # the owner makes sure it happens, the backup steps in
+        'cleaning + decision log': {'owner': 'TODO', 'backup': 'TODO'},
+        'weather API + join':      {'owner': 'TODO', 'backup': 'TODO'},
+        'analysis Q1-Q5':          {'owner': 'TODO', 'backup': 'TODO'},
+        'charts + presentation':   {'owner': 'TODO', 'backup': 'TODO'},
+    },
+    'question_owners': {                        # the reviewer is someone other than the owner
+        'Q1 demand surge':         {'owner': 'TODO', 'reviewer': 'TODO'},
+        'Q2 SKU consolidation':    {'owner': 'TODO', 'reviewer': 'TODO'},
+        'Q3 weather correlation':  {'owner': 'TODO', 'reviewer': 'TODO'},
+        'Q4 stores and geography': {'owner': 'TODO', 'reviewer': 'TODO'},
+        'Q5 signal or artifact':   {'owner': 'TODO', 'reviewer': 'TODO'},
+    },
+    'repo_url': 'TODO',
+    'notebook_owner_this_week': 'TODO',         # one person commits the shared notebook
+    'meeting_time': 'TODO',                     # a real recurring slot, not 'we will text'
+    'channel': 'TODO',                          # where we talk, and how fast we answer
+    'how_we_decide': 'TODO',                    # what we do when we disagree
+    'if_someone_goes_quiet': 'TODO',
+}
+
+def find_todos(obj, path=()):
+    if isinstance(obj, dict):
+        return [t for k, v in obj.items() for t in find_todos(v, path + (k,))]
+    if isinstance(obj, list):
+        return [t for i, v in enumerate(obj, 1) for t in find_todos(v, path + (f'#{i}',))]
+    return [' > '.join(path)] if str(obj).strip() in ('', 'TODO') else []
+
+unfilled = find_todos(team)
+if unfilled:
+    print(f'{len(unfilled)} items still unfilled. First few:')
+    for item in unfilled[:8]:
+        print('  -', item)
+else:
+    print('nothing unfilled -- charter is complete')
