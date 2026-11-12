@@ -11,10 +11,10 @@ We used OpenMeteo open source API for real data about the weather
 ## Data Cleaning and Preparation
 Several steps were taken to perpare the data to analyze and interpret such as:
 
-Filtering missing values and inconsitencies
-Standardizing product names, categories, and SKUs
-Consolidating overlapping categories
-Organizing data by category and date
+Filtering missing values and inconsitencies;
+Standardizing product names, categories, and SKUs;
+Consolidating overlapping categories;
+Organizing data by category and date;
 
 ## Data Analysis and Visualization
 Python was used to manipuate and analuze the data. Visualizations were created to examine trends in daily sales and didenfy categoeies with higher purchasing activity. Thus, we were able to determine patterns and changes in consumer behavior
@@ -22,10 +22,10 @@ Python was used to manipuate and analuze the data. Visualizations were created t
 ## Tools and Technologies
 In order to accomplish the goal, we used:
 
-Python
-Pandas (data cleaning/manipulation)
-Matplotlib (data visualization)
-Google CoLab
-GiHub
+Python;
+Pandas (data cleaning/manipulation);
+Matplotlib (data visualization);
+Google CoLab;
+GiHub;
 
 ## Key Findings
