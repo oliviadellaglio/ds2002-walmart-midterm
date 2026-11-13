@@ -28,7 +28,8 @@ Pandas (data cleaning/manipulation);
 Matplotlib (data visualization);
 Google CoLab;
 GitHub;
-
+SQLite and sqlite3 (inventory and sales analysis);
+Requests (weather API retrieval)
 
 ## Key Findings
 
