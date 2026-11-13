@@ -41,3 +41,13 @@ Requests (weather API retrieval)
 6. **Geographic Sales Patterns:** All 12 Florida stores experienced similar demand increases, ranging from approximately 2.0 to 2.4 times baseline sales.
 7. **Board Game Demand:** Board games showed a real but relatively modest increase in demand of approximately 2.1 times baseline.
 8. **Importance of Data Processing and Analysis:** Our findings demonstrate how data preparation and analytical choices affect business decisions.
+
+## Reflection 
+## Project Reflection
+Throughout this project, we learned how important data cleaning and analytical decisions are when interpreting sales patterns. One of our biggest challenges was determining the appropriate time period for analyzing hurricane-related purchasing behavior. At first, we focused on the seven days preceding Hurricane Helene's actual landfall on September 26. However, our data showed that the largest purchasing surge occurred nearly two weeks earlier. Comparing these different periods demonstrated how the same dataset could produce substantially different conclusions depending on the baseline and comparison windows selected.
+
+Another challenge was consolidating inconsistent product SKUs. Strawberry Pop-Tarts looked like they were a relatively ordinary product because its sales were divided across four different identifiers. Once we standardized them, we found that it was actually the second-highest-selling product. This demonstrated how errors in data organization can affect real business decisions, particularly inventory planning.
+
+We also learned the importance of questioning initial interpretations. Our analysis of board-game demand made us to distinguish between a real purchasing increase and possible data issues. We examined sales records, inventory levels, and SKU classifications, and we made a more evidence-based recommendation.
+
+Overall, this project improved our ability to clean data, interpret visualizations, and turn findings into business recommendations. We also learned that accurate conclusions depend on the calculations, as well as the assumptions and decisions made throughout the analytical process.
