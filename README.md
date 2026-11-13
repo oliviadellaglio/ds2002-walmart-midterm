@@ -33,17 +33,10 @@ GiHub;
 ## Key Findings
 
 1. **Data Cleaning and Preparation:** We cleaned 25,562 raw transactions into 24,521 usable transactions across 12 Florida stores.
-
 2. **Storm-Related Demand Surge:** Sales began increasing around September 5, peaked on September 13–14, and returned to normal levels by September 18.
-
 3. **Highest-Demand Categories:** Breakfast products experienced the largest increase in demand at 327%. Emergency supplies increased by 149%.
-
 4. **Importance of SKU Consolidation:** Four separate SKUs represented the same Strawberry Pop-Tarts product, hiding its actual demand.
-
 5. **Weather Correlations:** Our analysis found no statistically convincing relationship between weather indicators and total store sales.
-
 6. **Geographic Sales Patterns:** All 12 Florida stores experienced similar demand increases, ranging from approximately 2.0 to 2.4 times baseline sales.
-
 7. **Board Game Demand:** Board games showed a real but relatively modest increase in demand of approximately 2.1 times baseline.
-
 8. **Importance of Data Processing and Analysis:** Our findings demonstrate how data preparation and analytical choices affect business decisions.
