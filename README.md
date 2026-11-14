@@ -1,5 +1,5 @@
 # ds2002-walmart-midterm
-by Emma, Anastacia, Liv, and Caroline
+by Emma Kelly, Anastacia Oliynyk, Olivia Dell'Aglio, and Caroline Tracey
 
 ## Overview
 This project explores Walmart data to identify sales trends through data cleaning, manipulation, and visualization. The goal is to transform raw data into meaningful information that can give companies insight into consumer purchasing behavior and lead them to making smarter business decisions. 
