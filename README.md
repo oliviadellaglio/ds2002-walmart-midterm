@@ -42,6 +42,12 @@ Requests (weather API retrieval)
 7. **Board Game Demand:** Board games showed a real but relatively modest increase in demand of approximately 2.1 times baseline.
 8. **Importance of Data Processing and Analysis:** Our findings demonstrate how data preparation and analytical choices affect business decisions.
 
+## How to Run
+
+1. Open in Google Colab (or run locally with Python)
+2. Install dependencies: `pip install pandas matplotlib requests`
+3. Upload data files from data folder to Colab session
+
 ## Reflection 
 ## Project Reflection
 Throughout this project, we learned how important data cleaning and analytical decisions are when interpreting sales patterns. One of our biggest challenges was determining the appropriate time period for analyzing hurricane-related purchasing behavior. At first, we focused on the seven days preceding Hurricane Helene's actual landfall on September 26. However, our data showed that the largest purchasing surge occurred nearly two weeks earlier. Comparing these different periods demonstrated how the same dataset could produce substantially different conclusions depending on the baseline and comparison windows selected.
